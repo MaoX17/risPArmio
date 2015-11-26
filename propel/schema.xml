@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="default" defaultIdMethod="native" defaultPhpNamingMethod="underscore">
+  <table name="cache_data" idMethod="native" phpName="CacheData">
+    <column name="id_cache_data" phpName="IdCacheData" type="INTEGER" sqlType="int(11) unsigned" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="dt" phpName="Dt" type="DATE"/>
+    <column name="tot" phpName="Tot" type="DECIMAL" size="11" scale="2"/>
+    <unique name="dt_unica">
+      <unique-column name="dt"/>
+    </unique>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="documenti" idMethod="native" phpName="Documenti">
+    <column name="iddocumento" phpName="Iddocumento" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="progetti_idprogetto" phpName="ProgettiIdprogetto" type="INTEGER" sqlType="int(11) unsigned" primaryKey="true" required="true"/>
+    <column name="documento" phpName="Documento" type="VARCHAR" size="250"/>
+    <column name="descrizione" phpName="Descrizione" type="VARCHAR" size="255"/>
+    <foreign-key foreignTable="progetti" name="fk_documenti_progetti">
+      <reference local="progetti_idprogetto" foreign="idprogetto"/>
+    </foreign-key>
+    <index name="fk_documenti_progetti_idx">
+      <index-column name="progetti_idprogetto"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="progetti" idMethod="native" phpName="Progetti">
+    <column name="idprogetto" phpName="Idprogetto" type="INTEGER" sqlType="int(11) unsigned" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="progetto" phpName="Progetto" type="VARCHAR" size="250"/>
+    <column name="descrizione" phpName="Descrizione" type="VARCHAR" size="255"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="spese" idMethod="native" phpName="Spese">
+    <column name="idspesa" phpName="Idspesa" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="progetti_idprogetto" phpName="ProgettiIdprogetto" type="INTEGER" sqlType="int(11) unsigned" primaryKey="true" required="true"/>
+    <column name="dt_da" phpName="DtDa" type="DATE"/>
+    <column name="dt_a" phpName="DtA" type="DATE"/>
+    <column name="spesa" phpName="Spesa" type="DECIMAL" size="11" scale="2"/>
+    <column name="tipologia" phpName="Tipologia" type="VARCHAR" size="11"/>
+    <column name="reale_preventivo" phpName="RealePreventivo" type="VARCHAR" size="11"/>
+    <foreign-key foreignTable="progetti" name="fk_spese_progetti1">
+      <reference local="progetti_idprogetto" foreign="idprogetto"/>
+    </foreign-key>
+    <index name="fk_spese_progetti1_idx">
+      <index-column name="progetti_idprogetto"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+</database>

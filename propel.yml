@@ -1,0 +1,28 @@
+propel:
+        general:
+                project: risPArmio
+                version: 0.1
+
+        paths:
+                projectDir:  /var/www/vhosts/risPArmio
+                schemaDir: /var/www/vhosts/risPArmio/propel
+                phpDir: /var/www/vhosts/risPArmio/propel/class
+                phpConfDir: /var/www/vhosts/risPArmio/propel
+## All Database settings ##
+        database:
+                connections:
+                        default:
+                                adapter: mysql
+                                dsn: "mysql:host=localhost;dbname=risPArmio"
+                                user: root
+                                password:
+                                settings:
+                                    charset: utf8
+
+                        risPArmio:
+                                adapter: mysql
+                                dsn: "mysql:host=localhost;dbname=risPArmio"
+                                user: root
+                                password:
+                                settings:
+                                    charset: utf8
