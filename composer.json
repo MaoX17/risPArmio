@@ -1,11 +1,11 @@
 {
     "name": "mproietti/risPArmio",
     "description": "This package permit to show how maby money PA save",
-    "version": "0.0.1",
+    "version": "0.3",
     "type": "library",
     "keywords": ["money", "save", "PA"],
     "homepage": "http://blog.maurizio.proietti.nem",
-    "time": "2015-11-15",
+    "time": "2015-11-26",
     "license": "GPL2",
     "authors": [
         {
