@@ -80,6 +80,9 @@ include($percorso_relativo."grafica/body_head_bootstrap.php");
 					virtuoso di esperienze e di risparmi per la Pubblica Amministrazione.
 				</p>
 				<p>
+				I prezzi commerciali di servizi analoghi a quelli realizzati internamente provengono dal portale <a href="https://www.acquistinretepa.it" target="_blank">"acquisti in rete PA"</a>.
+				</p>
+				<p>
 				Nelle sezioni successive è disponibile un dettaglio sui
 					progetti realizzati a basso impatto finanziario.
 				</p>
