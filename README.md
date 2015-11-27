@@ -1,5 +1,5 @@
 # risPArmio
-Web application che rendere visibile l'attività quotidiana svolta dal personale del CED per fornire servizi informatici in modo da incidere il meno possibile sul bilancio dell'Ente.
+Web application che rendere visibile l'attività quotidiana svolta dal personale del CED per fornire servizi informatici in modo da incidere il meno possibile sul bilancio dell'Ente. ( http://risparmio.provincia.prato.it/ )
 
 Questa applicazione Web è scritta in php e sfrutta le funzionalità di Propel ORM
 Necessita di php >= 5.4.* e mysql >= 5.1.*
