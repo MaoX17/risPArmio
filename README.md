@@ -4,7 +4,7 @@ Web application che rendere visibile l'attività quotidiana svolta dal personale
 Questa applicazione Web è scritta in php e sfrutta le funzionalità di Propel ORM
 Necessita di php >= 5.4.* e mysql >= 5.1.*
 
-# Installazione
+## Installazione
 
 Questa applicazione necessita di composer (https://getcomposer.org)
 
@@ -35,7 +35,7 @@ mkdir -p propel/class
 rm -rf propel/* ; vendor/bin/propel ; export PATH=$PATH:vendor/bin/ ; propel reverse --output-dir="./propel" ; propel model:build ; composer dump-autoload ; propel config:convert
 
 
-# Credits
+## Credits
 Applicazione realizzata dal CED della Provincia di Prato - Ufficio Sistemi Informativi Per informazioni o suggerimenti inviare una mail al seguente indirizzo webmaster@provincia.prato.it
 
 I grafici sono a cura di www.amcharts.com
