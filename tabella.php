@@ -70,7 +70,7 @@ $progetti = ProgettiQuery::create()
 									<dt>Progetto:</dt>
 									<dd><?=$progetto->getDescrizione()?></dd>
 									<dd><a href="<?=$percorso_relativo?>include_graph_singolo_prj.php?idprogetto=<?=$idprogetto?>"
-										   class="btn btn-info" target="_blank">Andamento del risparmio nel tempo</a></dd>
+										   class="btn btn-info" onclick="target='_blank';">Andamento del risparmio nel tempo</a></dd>
 								</dl>
 								<!-- <b>Descrizione del progetto:</b> <br>
 								<?=$progetto->getDescrizione()?> -->
@@ -248,7 +248,7 @@ $progetti = ProgettiQuery::create()
 			</ul>
 			<p>
 				Progetti dal nr. <?php echo $progetti->getFirstIndex() ?> al nr. <?php echo $progetti->getLastIndex() ?>
-				<br>
+				<br/>
 				Progetti totali: <?php echo $progetti->getNbResults() ?>
 			</p>
 		</div>

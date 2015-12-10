@@ -15,17 +15,19 @@
 -->
 <body>
 
-<nav class="navbar navbar-default" role="navigation">
+<!-- <nav class="navbar navbar-default" role="navigation"> -->
+<div class="navbar navbar-default">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> -->
+        <button type="button" class="navbar-toggle">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
 		<a class="navbar-brand" href="http://<?=$_SERVER['SERVER_NAME']?>">
-			<img alt="Brand" src="/grafica/images/stemma-bar2.gif" height="30px">
+			<img alt="Brand" src="/grafica/images/stemma-bar2.gif" height="30px" />
 		</a>
 
 
@@ -47,9 +49,5 @@
 
 		</ul>
     </div><!-- /.navbar-collapse -->
-</nav>
-
-
-<!-------------------------------------------------------------------------------------------------->
-
-<!-------------------------------------------------------------------------------------------------->
+<!-- </nav> -->
+</div>

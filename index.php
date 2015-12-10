@@ -47,17 +47,17 @@ include($percorso_relativo."grafica/body_head_bootstrap.php");
 				Infatti, attraverso l'uso della tecnologia <a href="https://it.wikipedia.org/wiki/Open_source">
 						<b>Open Source</b></a>,
 				che promuove poi la
-					<a href="http://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/riuso-software" target="_blank">
+					<a href="http://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/riuso-software" onclick="target='_blank';">
 						buona pratica del Riuso</a>,
 				&egrave; possibile implementare applicazioni equivalenti a soluzioni commerciali
 				comunemente disponibili con i seguenti vantaggi:
-
+				</p>
 				<ul>
 					<li>indipendenza dal fornitore</li>
 					<li>maggior controllo sui dati e sul funzionamento dell'applicazione software</li>
 					<li>ridotto o nessun impatto sul bilancio dell'Ente</li>
 				</ul>
-				</p>
+
 				<p>
 				Questi risultati però richiedono un diverso approccio alla
 				risoluzione dei problemi tecnici per l'implementazione del software e
@@ -80,8 +80,11 @@ include($percorso_relativo."grafica/body_head_bootstrap.php");
 					virtuoso di esperienze e di risparmi per la Pubblica Amministrazione.
 				</p>
 				<p>
-				I prezzi commerciali di servizi analoghi a quelli realizzati internamente provengono dal portale <a href="https://www.acquistinretepa.it" target="_blank">"acquisti in rete PA"</a>.
+				I prezzi commerciali di servizi analoghi a quelli realizzati internamente provengono dal portale
+					<a href="https://www.acquistinretepa.it" onclick="target='_blank';">"acquisti in rete PA"</a>.
 				</p>
+				<p>Anche questo progetto &egrave; stato completamente realizzato dal CED della Provincia di Prato
+				utilizzando software open-source senza incidere sul bilancio dell'ente.</p>
 				<p>
 				Nelle sezioni successive è disponibile un dettaglio sui
 					progetti realizzati a basso impatto finanziario.
@@ -102,13 +105,9 @@ include($percorso_relativo."grafica/body_head_bootstrap.php");
 			<!-- <div class="well"> -->
 				<h2 class="text-danger">Andamento dei risparmi ottenuti</h2>
 
-				<!--------------------------------------------------------------------------->
 				<?php
 				include($percorso_relativo."include_graph_cache.html");
 				?>
-				<!--------------------------------------------------------------------------->
-
-
 
 			<!-- </div> -->
 		</div>
@@ -117,12 +116,9 @@ include($percorso_relativo."grafica/body_head_bootstrap.php");
 
 
 
-<?
-include($percorso_relativo."grafica/body_foot_bootstrap.php");
-?>
 
-<script src="<?=$percorso_relativo?>include/jcounter/jquery.counter.js" type="text/javascript"></script>
-<script>
+<script type="text/javascript" src="<?=$percorso_relativo?>include/jcounter/jquery.counter.js"></script>
+<script type="text/javascript">
 	$('.counter').counter();
 	$('#custom').addClass('counter-analog').counter({
 		//initial: '0:00.0',
@@ -133,3 +129,7 @@ include($percorso_relativo."grafica/body_foot_bootstrap.php");
 		//stop: '2012'
 	});
 </script>
+
+<?
+include($percorso_relativo."grafica/body_foot_bootstrap.php");
+?>
