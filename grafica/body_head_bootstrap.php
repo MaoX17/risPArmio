@@ -26,8 +26,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-		<a class="navbar-brand" href="http://<?=$_SERVER['SERVER_NAME']?>">
-			<img alt="Brand" src="/grafica/images/stemma-bar2.gif" height="30px" />
+      	<a class="navbar-brand" href="http://<?=$_SERVER['SERVER_NAME']?>">
+			<img alt="Brand" src="/grafica/images/stemma-bar2.gif" height="30" />
 		</a>
 
 

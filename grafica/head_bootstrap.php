@@ -4,12 +4,6 @@
  * User: maurizio.proietti@gmail.com
  */
 ?>
-<!--
-/**
- * Created by Maurizio Proietti
- * User: maurizio.proietti@gmail.com
- */
--->
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
@@ -24,10 +18,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Stream Project" />
+    <meta name="description" content="Progetto opensource risPArmio della Provincia di Prato" />
     <meta name="author" content="Maurizio Proietti" />
     <meta name="keywords" content="risPArmio PA provincia Prato maurizio proietti" />
-    <meta http-equiv="content-language" content="it" />
+
+
+    <?php include_once($percorso_relativo."include/schema_microdata.php") ?>
 
 
 

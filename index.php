@@ -4,12 +4,6 @@
  * User: maurizio.proietti@gmail.com
  */
 ?>
-<!--
-/**
- * Created by Maurizio Proietti
- * User: maurizio.proietti@gmail.com
- */
--->
 
 <?php
 $percorso_relativo = "./";
