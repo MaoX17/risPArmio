@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2019-02-10 10:10:14 - tinyMediaManager 2.9.15 -->
+<movie>
+    <title>Human Resources</title>
+    <originaltitle>Human Resources</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>2.3</rating>
+    <year>2015</year>
+    <top250></top250>
+    <votes>2</votes>
+    <outline></outline>
+    <plot></plot>
+    <tagline></tagline>
+    <runtime>74</runtime>
+    <thumb>http://image.tmdb.org/t/p/original/awOtnA9uczeMS7aLY1KFOKG44br.jpg</thumb>
+    <fanart></fanart>
+    <mpaa>NR</mpaa>
+    <certification>NR</certification>
+    <id>tt2930668</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">343509</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt2930668</value>
+        </entry>
+    </ids>
+    <tmdbId>343509</tmdbId>
+    <country>Stati Uniti</country>
+    <premiered>2015-06-06</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <width>0</width>
+                <height>0</height>
+                <durationinseconds>0</durationinseconds>
+            </video>
+        </streamdetails>
+    </fileinfo>
+    <watched>false</watched>
+    <playcount>0</playcount>
+    <genre>Thriller</genre>
+    <genre>Orrore</genre>
+    <credits>Keil Troisi</credits>
+    <credits>Aaron Troisi</credits>
+    <director>Keil Troisi</director>
+    <actor>
+        <name>Sonia Williams</name>
+        <role>Charlene Moore</role>
+    </actor>
+    <actor>
+        <name>Aaron Troisi</name>
+        <role>Sean Manning</role>
+    </actor>
+    <actor>
+        <name>James Goode</name>
+        <role>Alan Ramsey</role>
+    </actor>
+    <actor>
+        <name>Elizabeth Dowd</name>
+        <role>Judith Ramsey</role>
+    </actor>
+    <actor>
+        <name>Andrew Hubatsek</name>
+        <role>Sagely Janitor</role>
+    </actor>
+    <languages></languages>
+    <source>TS</source>
+</movie>
